@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-#![cfg_attr(not(test), no_std)]
+#![cfg_attr(not(any(test, feature = "instrument")), no_std)]
 #![allow(clippy::unused_unit)]
 
 //! # Creditra credit contract
